@@ -1,0 +1,77 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background-color: #FFCCA2FF;
+}
+
+h1{
+	font-family: 'IBM Plex Serif', serif;
+	font-family: 'Hi Melody', cursive;
+	color: #fff;
+}
+
+header{
+	background-color: red;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,h2{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+nav ul li, footer ul li{
+	display: inline;	
+} /*etiquetas li dentro de ul dentro de nav*/
+
+nav a{
+	display: inline;
+	width: 100px;
+	height: 20px;
+	text-decoration: none;
+	background-color: #0A0A2A;	
+	color:#fff;
+}
+
+ul{
+	list-style: none;
+}
+
+img{
+	width: 80%;
+}
+
+.informacion-personal{
+	text-align: center;
+	width: 45%;
+}
+
+li:hover a{
+	background-color: #57FF3AFF;
+}
+
+footer{
+	height: 90px;
+	background:white;
+}
+
+section.premios{
+	width: 60%;
+}
+
+table,th,td{
+	border: 2px solid rgb(28,58,64);
+	border-collapse: collapse /*para un solo margen*/
+}
+
+section.biografia-texto{
+	width: 50%;
+	text-align:justify;
+}
+
+.active{
+background-color: #DAFF35FF;
+}
